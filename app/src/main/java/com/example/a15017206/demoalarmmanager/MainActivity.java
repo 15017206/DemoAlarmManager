@@ -41,8 +41,7 @@ public class MainActivity extends AppCompatActivity {
                                 PendingIntent.FLAG_CANCEL_CURRENT);
 
                 // Get AlarmManager instance
-                am = (AlarmManager)
-                        getSystemService(Activity.ALARM_SERVICE);
+                am = (AlarmManager)getSystemService(Activity.ALARM_SERVICE);
 
                 // Set the alarm
                 am.set(AlarmManager.RTC_WAKEUP, cal.getTimeInMillis(),
